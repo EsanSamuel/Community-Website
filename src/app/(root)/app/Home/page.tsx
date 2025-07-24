@@ -79,8 +79,13 @@ const Home = () => {
 
           <div className="mt-5">
             <Card className="shadow-0 p-3">
-              <input placeholder="Go to the store today" />
-              <textarea placeholder="Enter description"></textarea>
+              <input placeholder="Go to the store today" className="text-[12px]" />
+              <textarea placeholder="Enter description" className="text-[11px]"></textarea>
+              <div className="flex gap-2 items-center">
+                <Badge variant="outline">Date</Badge>
+                <Badge variant="outline">Priority</Badge>
+                <Badge variant="outline">Reminders</Badge>
+              </div>
             </Card>
           </div>
         </div>

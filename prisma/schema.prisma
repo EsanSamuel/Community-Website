@@ -23,7 +23,10 @@ model User {
 
 model Task {
     id String @id @default(auto()) @map("_id") @db.ObjectId
+    title String 
+    description String?
     isCompleted Boolean @default(false)
+    time DateTime
     
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt()

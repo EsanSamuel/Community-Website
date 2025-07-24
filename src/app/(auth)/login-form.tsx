@@ -75,14 +75,14 @@ export function LoginForm({
               {authType === "LOGIN" ? (
                 <div className="flex flex-col items-center text-center">
                   <h1 className="text-2xl font-bold">Welcome back</h1>
-                  <p className="text-muted-foreground text-balance">
+                  <p className="text-muted-foreground text-sm font-light">
                     Login to your Acme Inc account
                   </p>
                 </div>
               ) : (
                 <div className="flex flex-col items-center text-center">
                   <h1 className="text-2xl font-bold">Create an Account</h1>
-                  <p className="text-muted-foreground text-balance">
+                  <p className="text-muted-foreground text-sm font-light">
                     Create a new account in this app
                   </p>
                 </div>
